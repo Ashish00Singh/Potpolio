@@ -78,6 +78,10 @@ li .nav-link:hover{
 .logo{
   width: 90px;
 }
+.active{
+  background-color: bisque;
+  color: beige;
+}
 
 .conte{
   opacity: 0;

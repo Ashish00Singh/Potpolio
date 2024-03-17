@@ -1,5 +1,6 @@
 import React from 'react'
 import pho from './prof.jpeg'
+import loh from './logo-no.png'
 import './StyleF.css'
 import { Link } from 'react-router-dom'
 

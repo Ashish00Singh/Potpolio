@@ -36,7 +36,7 @@ const Data = [
     ,
     {
         id: 5,
-        url: "https://operal-shoping-demo.vercel.app/",
+        url: "https://shoping-indol.vercel.app/",
         project: "Operal-Shoping Website",
         img: "xyz",
         
@@ -73,8 +73,8 @@ const Data = [
     ,
     {
         id: 9,
-        url: "https://ashish-news.vercel.app/",
-        project: "News Website",
+        url: "https://potpolio-six.vercel.app/",
+        project: "Self Introduction Web page",
         img: "xyz",
         
         desp: "Incorporating a Blogger website into your project not only enhances your online presence but also helps you connect with your audience on a deeper level. It's a valuable tool for sharing updates, building relationships, and achieving your project goals. "
