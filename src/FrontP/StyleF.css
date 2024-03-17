@@ -1,0 +1,31 @@
+.ashish{
+     background-image: url(./bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    /* background-size: 1100px; */
+    background-position: center;
+}
+
+.landing{
+   
+    justify-content:space-around;
+    align-items: center;
+    height:100vh;
+    /* width: 91vw; */
+    width: fit-content;
+}
+.Ltitale{
+    font-size: 45px;
+}
+.profile{
+    border: 5px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 3px rgb(136, 124, 124);
+}
+.btn-light{
+    background-color: rgb(242, 242, 248);
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px rgb(136, 124, 124);
+}

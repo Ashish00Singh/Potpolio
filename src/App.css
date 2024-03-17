@@ -1,0 +1,261 @@
+#root {
+  margin: 0;
+  padding: 0rem;
+}
+/* -------------------------------------------------------------- Navbar -------------------------------  */
+.navbar{
+  background-color: rgb(175, 226, 218);
+}
+.navbar .container-fluid{
+  justify-content: center;
+}
+ul li .nav-link{
+  font-size: 20px;
+  color: darkgreen;
+}
+li .nav-link:hover{
+  font-size: 20px;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  color: black;
+  transition: 1s;
+  /* text-shadow: 3px 3px 4px; */
+  border-radius: 5px;
+  /* background-color: rgb(10, 190, 210); */
+}
+/* ul li .nav-link.active{
+  font-size: 20px;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  color: black;
+  text-shadow: 3px 3px 4px black;
+  border-radius: 5px;
+  background-color: rgb(10, 190, 210);
+} */
+
+ /* ------------------------------------------------------------------------------------------------------- */
+ /* ------------------------------------------------- Navbar ---------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------- */
+
+/* -----------------   Project ---------------------- */
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------- */
+.project_det{
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  width: 400px;
+  padding: 15px;
+}
+
+.carcont{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 15px;
+  flex-wrap: wrap;
+  overflow: hidden;
+  border: 2px solid rgb(252, 167, 158) ;
+  border-radius: 10px;
+}
+
+.logo{
+  width: 90px;
+}
+
+.conte{
+  opacity: 0;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 253, 253, 0.842);
+  padding: 5px;
+  transition:1s ;
+}
+.card:hover .conte{
+  opacity: 1;
+  background-color: #9fb0cedc;
+}
+
+.btnpro:hover{
+color: black;
+}
+.btnpro{
+  position: absolute;
+  bottom: 0px;
+  width: 90%;
+  margin: 5px;
+}
+
+/* --------------------------------------------- About ------------------------------------------------- */
+.pro_about{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  
+}
+.xyz{
+  max-width: 850px;
+}
+.profil{
+  width: 150px;
+  float: left;
+  margin-right: 15px;
+}
+/* ---------------- skill ----------------------- */
+.skill{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.two{
+  width: 70%;
+}
+
+.timeline {
+  border-left: 1px solid hsl(251, 91%, 48%);
+  position: relative;
+  list-style: none;
+  max-width: 500px;
+}
+
+.timeline .timeline-item {
+  position: relative;
+}
+
+.timeline .timeline-item:after {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+.timeline .timeline-item:after {
+  background-color: hsl(249, 57%, 58%);
+  left: -38px;
+  border-radius: 50%;
+  height: 11px;
+  width: 11px;
+  content: "";
+}
+/* ------------------------------------- achivement ------------------------------------- */
+.achivement{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+/* -------------------------------------------- footer ---------------------------- */
+.conta{
+
+  position: fixed;
+  z-index: 1;
+  top: 25%;
+  flex-direction: column;
+  /* background-color: rgb(175,226,218); */
+  /* box-shadow: 1px -1px 5px 5px,1px 1px 5px blue; */
+  width: 80px;
+  padding: 10px;
+  font-size: 40px;
+  border-radius: 0px 8px 8px 0px;
+}
+.fa-phone, .fa-envelope, .fa-linkedin, .fa-phone, .fa-square-github{
+  padding: 10px;
+  background-color: burlywood;
+  color: #005eff;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  box-shadow: 0px 1px 2px 2px;
+}
+.fa-phone{
+  padding: 18px;
+  font-size: 25px;
+}
+.fa-phone:hover{
+  position: relative;
+  color: rgb(0, 0, 0);
+  left: 15px;
+
+}
+ .fa-envelope:hover{
+  position: relative;
+  color: rgb(0, 0, 0);
+  left: 15px;
+}
+ .fa-linkedin:hover{
+  position: relative;
+  color: rgb(0, 0, 0);
+  left: 15px;
+}
+.fa-square-github:hover{
+  position: relative;
+  color: rgb(0, 0, 0);
+  left: 15px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 400px) {
+
+
+
+  .conta{
+    position: fixed;
+    z-index: 1;
+    top: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(175,226,218);
+    box-shadow: 1px 1px 5px ,1px 1px 5px blue;
+    width: 30px;
+    padding: 5px;
+    font-size: 0px;
+    border-radius: 0px 8px 8px 0px;
+  }
+ 
+  .fa-phone, .fa-envelope, .fa-linkedin, .fa-phone, .fa-square-github{
+    padding: 5px;
+    /* margin-bottom: 10px; */
+    background-color: burlywood;
+    color: #005eff;
+    font-size: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0px 1px 5px 3px;
+  }
+
+}
